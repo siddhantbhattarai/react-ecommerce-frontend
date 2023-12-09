@@ -13,16 +13,16 @@ Follow the instructions below to clone the repository, build the Docker image, a
 - [Docker](https://www.docker.com/)
 
 ### Clone the Repository
-git clone https://github.com/siddhantbhattarai/react-ecommerce-frontend.git
+```bash git clone https://github.com/siddhantbhattarai/react-ecommerce-frontend.git
 
 ### Move into the Repository
-cd react-ecommerce-frontend
+```bash cd react-ecommerce-frontend
 
 ### Build Docker Image
-docker build -t react-ecommerce-frontend .
+```bash docker build -t react-ecommerce-frontend .
 
 ### Run Docker Container
-docker run -p 3000:3000 -d react-ecommerce-frontend
+```bash docker run -p 3000:3000 -d react-ecommerce-frontend
 
 
 
